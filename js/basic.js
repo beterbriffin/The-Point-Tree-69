@@ -79,10 +79,10 @@ addLayer("basic", {
             description: "Basic points boost point fragments.",
             cost: new Decimal(3),
             main() {
-                expu2 = 1.2
-                if (hasUpgrade("basic", 62)) expu2 = 1.25
-                if (hasMilestone("rebirth", 13)) expu2 = 1.345
-                if (hasUpgrade("era", 103)) expu2 = 1.375
+                expu2 = 3.2
+                if (hasUpgrade("basic", 62)) expu2 = 3.25
+                if (hasMilestone("rebirth", 13)) expu2 = 3.345
+                if (hasUpgrade("era", 103)) expu2 = 3.375
                 softcapDescription12 = ""
                 sdsc = ""
                 scpow = 0.8
